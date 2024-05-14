@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <AssemblyName>Chronic.Core</AssemblyName>
     <RootNamespace>Chronic.Core</RootNamespace>
     <Authors>Rob Bell</Authors>
@@ -15,12 +15,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="bin/Release/netstandard2.0/Chronic.Core.pdb" PackagePath="lib/netstandard2.0" />
-    <None Include="../../doc/chronic.png" Pack="true" PackagePath="$(PackageIcon)"/>
+    <Content Include="bin/Release/net8.0/Chronic.Core.pdb" PackagePath="lib/net8.0" />
+    <None Include="../../doc/chronic.png" Pack="true" PackagePath="$(PackageIcon)" />
   </ItemGroup>
 
 </Project>
