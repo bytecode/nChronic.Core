@@ -1,0 +1,3 @@
+dotnet build src/Chronic.sln -c release
+dotnet pack src/Chronic.sln -c release
+dotnet nuget push "E:\Projects\nChronic.Core\src\Chronic.Core\bin\Release\*.nupkg"  -s E:\LocalPackages
